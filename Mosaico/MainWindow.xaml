@@ -1,0 +1,48 @@
+﻿<Window x:Class="Mosaico.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Mosaico"
+        mc:Ignorable="d"
+        Title="Mosaico" Icon="/img/32.ico"
+        Height="600" Width="600"
+        MinHeight="500" MinWidth="480">
+    <DockPanel>
+        
+        <StackPanel
+            DockPanel.Dock="Top"
+            Background="Purple"
+            Height="100"/>
+        <StackPanel
+            DockPanel.Dock="Left"
+            Background="Purple"
+            Width="100"/>
+        <StackPanel
+            DockPanel.Dock="Right"
+            Background="Green"
+            Width="100"/>
+        <StackPanel
+            DockPanel.Dock="Bottom"
+            Background="Green"
+            Height="100"/>
+        <StackPanel
+            DockPanel.Dock="Left"
+            Background="OrangeRed"
+            Width="100"/>
+        <StackPanel
+            DockPanel.Dock="Bottom"
+            Background="OrangeRed"
+            Height="100"/>
+        <StackPanel
+            DockPanel.Dock="Top"
+            Background="DeepPink"
+            Height="100"/>
+        <StackPanel
+            DockPanel.Dock="Right"
+            Background="DeepPink"
+            Width="100"/>
+        <StackPanel
+            Background="Black"/>
+    </DockPanel>
+</Window>
